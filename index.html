@@ -1,0 +1,394 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chic Finds | Fashion & Lifestyle</title>
+<meta name="description" content="Discover beautiful women's fashion, jewellery, accessories and lifestyle finds from Amazon and AliExpress.">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #fffaf8;
+    color: #333;
+}
+
+header {
+    background: white;
+    padding: 22px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 12px #0000000d;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 27px;
+    font-weight: bold;
+    color: #b76e79;
+    letter-spacing: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #444;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #b76e79;
+}
+
+.hero {
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(120deg, #f9e5e4, #f8efea, #f3d9dc);
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: clamp(38px, 6vw, 65px);
+    color: #754b53;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #69585a;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 30px;
+    background: #b76e79;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: #8f4e59;
+    transform: translateY(-3px);
+}
+
+section {
+    padding: 65px 8%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 34px;
+    color: #754b53;
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #888;
+    margin-bottom: 40px;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.category {
+    background: #f8e9e7;
+    padding: 35px 15px;
+    text-align: center;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.category:hover {
+    transform: translateY(-5px);
+    background: #f2d9d9;
+}
+
+.category span {
+    font-size: 38px;
+}
+
+.category h3 {
+    margin-top: 15px;
+    color: #754b53;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 28px;
+}
+
+.product {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 18px #0000000b;
+    transition: .3s;
+}
+
+.product:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px #00000015;
+}
+
+.product img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    background: #f4e9e7;
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.product-info h3 {
+    color: #754b53;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.6;
+    min-height: 45px;
+    margin-bottom: 15px;
+}
+
+.shop-btn {
+    display: block;
+    text-align: center;
+    background: #b76e79;
+    color: white;
+    text-decoration: none;
+    padding: 11px;
+    border-radius: 8px;
+}
+
+.shop-btn:hover {
+    background: #8f4e59;
+}
+
+.about {
+    background: #f8e9e7;
+    text-align: center;
+}
+
+.about p {
+    max-width: 750px;
+    margin: auto;
+    line-height: 1.9;
+    color: #66585a;
+}
+
+.newsletter {
+    text-align: center;
+    background: #fff;
+}
+
+.newsletter p {
+    margin: 15px 0 25px;
+    color: #777;
+}
+
+footer {
+    background: #754b53;
+    color: white;
+    padding: 35px 8%;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 13px;
+    color: #f5dddd;
+}
+
+@media(max-width:650px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+    nav a {
+        margin: 0 7px;
+        font-size: 12px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">CHIC FINDS</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#products">Shop</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<div class="hero" id="home">
+    <div class="hero-content">
+        <h1>Little Things, Beautiful Style.</h1>
+        <p>
+            Discover stylish jewellery, elegant fashion,
+            everyday accessories and lovely lifestyle finds.
+            Your inspiration for affordable everyday luxury.
+        </p>
+        <a href="#products" class="btn">Explore Our Finds</a>
+    </div>
+</div>
+
+<section id="categories">
+    <h2 class="section-title">Explore Categories</h2>
+    <p class="subtitle">Beautiful finds for every part of your lifestyle.</p>
+
+    <div class="categories">
+        <div class="category">
+            <span>💎</span>
+            <h3>Jewellery</h3>
+        </div>
+        <div class="category">
+            <span>👗</span>
+            <h3>Women's Fashion</h3>
+        </div>
+        <div class="category">
+            <span>👜</span>
+            <h3>Bags & Accessories</h3>
+        </div>
+        <div class="category">
+            <span>💄</span>
+            <h3>Beauty</h3>
+        </div>
+        <div class="category">
+            <span>📔</span>
+            <h3>Journals & Planners</h3>
+        </div>
+        <div class="category">
+            <span>🎀</span>
+            <h3>Lifestyle Finds</h3>
+        </div>
+    </div>
+</section>
+
+<section id="products">
+    <h2 class="section-title">Our Favourite Finds</h2>
+    <p class="subtitle">Explore products we think deserve a place in your collection.</p>
+
+    <div class="products">
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600" alt="Elegant jewellery">
+            <div class="product-info">
+                <h3>Elegant Jewellery</h3>
+                <p>Delicate jewellery pieces to complement your everyday style.</p>
+                <a href="YOUR_AMAZON_AFFILIATE_LINK" class="shop-btn" target="_blank" rel="nofollow sponsored noopener">Shop on Amazon</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=600" alt="Fashion bracelet">
+            <div class="product-info">
+                <h3>Chic Bracelets</h3>
+                <p>Beautiful bracelets and accessories for every occasion.</p>
+                <a href="YOUR_ALIEXPRESS_AFFILIATE_LINK" class="shop-btn" target="_blank" rel="nofollow sponsored noopener">Shop on AliExpress</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600" alt="Women's handbag">
+            <div class="product-info">
+                <h3>Stylish Handbags</h3>
+                <p>Discover fashionable bags for work, travel and everyday use.</p>
+                <a href="YOUR_AMAZON_AFFILIATE_LINK" class="shop-btn" target="_blank" rel="nofollow sponsored noopener">Shop on Amazon</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600" alt="Women's fashion">
+            <div class="product-info">
+                <h3>Women's Fashion</h3>
+                <p>Find stylish clothing and wardrobe essentials.</p>
+                <a href="YOUR_ALIEXPRESS_AFFILIATE_LINK" class="shop-btn" target="_blank" rel="nofollow sponsored noopener">Shop on AliExpress</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?w=600" alt="Journal and notebook">
+            <div class="product-info">
+                <h3>Journals & Planners</h3>
+                <p>Stay organized and inspired with beautiful stationery.</p>
+                <a href="YOUR_AMAZON_AFFILIATE_LINK" class="shop-btn" target="_blank" rel="nofollow sponsored noopener">Shop on Amazon</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600" alt="Beauty products">
+            <div class="product-info">
+                <h3>Beauty Essentials</h3>
+                <p>Explore beauty tools and accessories for your routine.</p>
+                <a href="YOUR_ALIEXPRESS_AFFILIATE_LINK" class="shop-btn" target="_blank" rel="nofollow sponsored noopener">Shop on AliExpress</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2 class="section-title">About Chic Finds</h2>
+    <p>
+        Welcome to Chic Finds! We bring together fashion inspiration,
+        elegant jewellery, cute accessories, stationery and lifestyle
+        products from Amazon and AliExpress.
+        Our goal is to help you discover lovely products without
+        spending hours searching for them.
+    </p>
+</section>
+
+<section class="newsletter">
+    <h2 class="section-title">Find Your Next Favourite</h2>
+    <p>Explore our curated collection and discover something beautiful today.</p>
+    <a href="#products" class="btn">Start Exploring</a>
+</section>
+
+<footer>
+    <h2>CHIC FINDS</h2>
+    <p>Fashion • Jewellery • Beauty • Lifestyle</p>
+    <p>
+        Affiliate Disclosure: As an Amazon Associate I earn from
+        qualifying purchases. We may also earn commissions from
+        qualifying purchases through AliExpress affiliate links.
+    </p>
+    <p>© 2026 Chic Finds. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
