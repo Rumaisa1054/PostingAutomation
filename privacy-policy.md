@@ -1,99 +1,201 @@
-# Privacy Policy
+# Privacy Policy – Re_tail
 
-**Effective Date:** November 8, 2026
+**Effective Date:** November 15, 2026  
+**Last Updated:** November 15, 2026
 
 ## 1. Introduction
 
-This Privacy Policy explains how **Re_tail** handles information when used to automate publishing content to Facebook Pages and Pinterest.
+This Privacy Policy describes how Re_tail ("Application", "we", "our", or "us") collects, accesses, uses, stores, and protects information when users access our social media content publishing application.
 
-The application is operated by **Rumaisa**.
+Re_tail is a content management and publishing application designed to help users prepare, organize, and publish product-related content to their authorized Pinterest accounts and Facebook Pages.
 
-## 2. Information We Process
+The application is operated by Rumaisa.
 
-To provide automated publishing functionality, the application may process:
+By using Re_tail or connecting a third-party social media account, you acknowledge the data practices described in this Privacy Policy.
 
-**Facebook:**
-- Facebook Page IDs and Page names.
-- Facebook Page Access Tokens used to authorize publishing.
-- Text, captions, and images submitted for publication.
-- Publishing status and API responses.
+## 2. Information We Access and Process
 
-**Pinterest:**
-- Pinterest account information and profile details made available through the Pinterest API.
-- Pinterest user IDs and account identifiers.
-- Pinterest access tokens used to authorize API requests.
+Depending on the services you use, Re_tail may access and process the following information.
+
+### 2.1 Pinterest Information
+
+When you connect your Pinterest account through Pinterest's official OAuth authorization process, the application may access:
+
+- Pinterest account identifiers and user profile information made available through the authorized API.
+- Pinterest user IDs and account details.
+- Pinterest access tokens required to authenticate authorized API requests.
 - Pinterest board IDs and board names.
-- Pin titles, descriptions, images, and destination URLs submitted for publication.
+- Pin titles and descriptions.
+- Product images and image URLs submitted for publication.
+- Destination URLs associated with Pins.
 - Publishing status and API responses.
 
-The application does not intentionally collect sensitive personal information from Facebook or Pinterest users.
+The information accessed depends on the permissions authorized by the user and the functionality being used.
+
+### 2.2 Facebook Information
+
+When you connect a Facebook Page, the application may process:
+
+- Facebook Page IDs and Page names.
+- Page access tokens required for authorized publishing.
+- Post captions and text.
+- Images submitted for publication.
+- Publishing status and API responses.
+
+### 2.3 Information Provided by Users
+
+Users may voluntarily provide product images, descriptions, titles, captions, destination URLs, and other content they want to publish through the application.
+
+Re_tail does not intentionally request sensitive personal information unrelated to its publishing functionality.
 
 ## 3. How We Use Information
 
-Information is processed only to:
+Information accessed or provided through the application is used solely to operate and improve its publishing functionality.
 
-- Publish text and image posts to authorized Facebook Pages.
-- Create and publish Pins to authorized Pinterest accounts and boards.
-- Authenticate requests through Meta's Graph API and Pinterest API.
-- Manage publishing operations and monitor publishing results.
-- Troubleshoot API errors and maintain application functionality.
+Specifically, we use information to:
 
-We do not sell or rent personal information to third parties.
+- Authenticate users through Pinterest OAuth and other supported authorization mechanisms.
+- Connect users to their authorized Pinterest accounts.
+- Retrieve available Pinterest boards for content organization and selection.
+- Create and publish Pins to user-selected Pinterest boards.
+- Publish authorized content to connected Facebook Pages.
+- Process product images, titles, descriptions, and destination URLs submitted by users.
+- Display publishing results and API responses.
+- Maintain application functionality, troubleshoot errors, and improve service reliability.
+- Protect the application against unauthorized access and misuse.
 
-## 4. Data Storage and Security
+We do not sell, rent, or trade users' personal information or social media account data.
 
-Access tokens and publishing information are handled by the application operator.
+We do not use Pinterest information for advertising profiling, unrelated analytics, or purposes unrelated to the application's publishing functionality.
 
-Reasonable measures are taken to protect access credentials and prevent unauthorized access. Users should not share their access tokens with unauthorized individuals.
+## 4. Pinterest API and OAuth Authorization
 
-## 5. Third-Party Services
+Re_tail integrates with Pinterest through the official Pinterest API.
 
-The application integrates with the following third-party services:
+Users authorize the application through Pinterest's OAuth authorization process. Users must grant the requested permissions before the application can access the corresponding Pinterest information.
 
-**Meta Platforms (Facebook)**
+The application uses authorized API access to provide Pinterest account connection, board retrieval, and Pin publishing functionality.
 
-The application uses Meta's Graph API to publish content to authorized Facebook Pages.
+Re_tail only accesses Pinterest information necessary to provide the functionality requested by the user and permitted through the granted authorization scopes.
 
-Facebook's privacy policy:
+Users can revoke the application's access through their Pinterest account settings.
 
-https://www.facebook.com/privacy/policy/
+Revoking authorization prevents the application from making further authorized API requests using the revoked credentials.
 
-**Pinterest**
+## 5. Data Storage and Security
 
-The application uses the Pinterest API to connect authorized Pinterest accounts and publish Pins to selected boards.
+Re_tail takes reasonable technical and organizational measures to protect information processed through the application.
 
-Pinterest's privacy policy:
+These measures may include:
+
+- Restricting access to application credentials and account information.
+- Protecting authentication tokens against unauthorized disclosure.
+- Using secure HTTPS connections where supported.
+- Limiting access to information to what is necessary for application operation.
+- Monitoring application functionality and addressing security issues.
+
+Social media access tokens are treated as confidential authentication credentials and are not intended to be publicly accessible.
+
+No method of electronic transmission or storage is completely secure. Therefore, we cannot guarantee absolute security.
+
+## 6. Data Sharing and Third-Party Services
+
+Re_tail integrates with third-party platforms to provide its publishing functionality.
+
+### Pinterest
+
+The application communicates with Pinterest through its official API to authenticate authorized accounts, retrieve permitted board information, and publish Pins.
+
+Pinterest's Privacy Policy:
 
 https://policy.pinterest.com/en/privacy-policy
 
-Use of these third-party services is also subject to their respective terms, policies, and developer requirements.
+### Meta Platforms (Facebook)
 
-## 6. Data Retention and Deletion
+The application may communicate with Meta's Graph API to publish content to Facebook Pages authorized by users.
 
-Information is retained only for as long as necessary to operate the application and provide its publishing functionality.
+Meta's Privacy Policy:
 
-Users can request deletion of information associated with their use of the application, including Facebook and Pinterest account-related information, by contacting:
+https://www.facebook.com/privacy/policy/
+
+### Hosting and Infrastructure Providers
+
+Application data may be processed by hosting or infrastructure providers when necessary to operate the application.
+
+We do not sell users' information or share social media account data with third parties for their independent advertising or marketing purposes.
+
+Third-party platforms process information according to their own privacy policies and terms.
+
+## 7. Data Retention
+
+Re_tail retains information only for as long as reasonably necessary to provide its functionality, maintain publishing records, troubleshoot technical issues, and meet applicable legal obligations.
+
+Authentication tokens are retained only while needed to maintain an authorized connection and are deleted when no longer required.
+
+Publishing content and operational records may be retained while necessary to provide the requested services.
+
+When information is no longer necessary, it will be deleted or securely disposed of, subject to applicable legal and security requirements.
+
+## 8. Data Deletion and Revocation
+
+Users may request deletion of information associated with their use of Re_tail, including:
+
+- Pinterest account identifiers and associated account information.
+- Pinterest authentication tokens.
+- Pinterest board information retrieved by the application.
+- Facebook Page authorization information.
+- Publishing records and other associated application data.
+
+To request deletion, users can contact:
 
 **Email:** dev.rumaisa@gmail.com
 
-Requests will be reviewed and applicable information will be deleted, subject to legal or security requirements.
+Please include the subject line:
 
-Users may also revoke the application's access through their Facebook or Pinterest account settings.
+**Data Deletion Request – Re_tail**
 
-## 7. Your Rights
+We will review deletion requests and take appropriate steps to delete applicable information, subject to legal obligations and legitimate security requirements.
 
-You may request information about data associated with your use of the application, request corrections, or request deletion by contacting the application operator.
+Users may also revoke the application's authorization through their Pinterest or Facebook account settings.
 
-You may also revoke previously granted permissions through the respective platform's account settings.
+Following revocation, Re_tail will no longer access the account using the revoked authorization.
 
-## 8. Changes to This Policy
+## 9. User Rights and Choices
 
-This Privacy Policy may be updated when the application's functionality or data practices change. Updates will be published on this page.
+Users may:
 
-## 9. Contact
+- Choose whether to connect their Pinterest or Facebook accounts.
+- Review and authorize requested account permissions.
+- Revoke previously granted application permissions.
+- Request access to information associated with their application use.
+- Request correction or deletion of applicable personal information.
+- Stop using the application at any time.
 
-For questions or data deletion requests, contact:
+For privacy-related questions or requests, users can contact the application operator using the details below.
 
-**Application:** Re_tail  
-**Operator:** Rumaisa  
-**Email:** dev.rumaisa@gmail.com
+## 10. Children's Privacy
+
+Re_tail is not designed to knowingly collect personal information from children under the age of 13.
+
+We do not intentionally direct the application toward children.
+
+If we become aware that personal information has been collected from a child in circumstances where such collection is not permitted, we will take appropriate steps to address the information.
+
+## 11. Changes to This Privacy Policy
+
+We may update this Privacy Policy when application functionality, data processing practices, or applicable legal requirements change.
+
+The latest version will be published on this page with an updated effective date.
+
+Users are encouraged to review this page periodically.
+
+## 12. Contact Information
+
+For privacy questions, account-related concerns, or data deletion requests, please contact:
+
+**Application Name:** Re_tail  
+**Application Website:** https://rumaisa1054.github.io/PostingAutomation/  
+**Application Operator:** Rumaisa  
+**Contact Email:** dev.rumaisa@gmail.com
+
+We will review privacy-related inquiries and respond as appropriate.
